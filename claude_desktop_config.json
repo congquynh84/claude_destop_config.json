@@ -86,3 +86,14 @@
     "relativePointFromMonitor": { "x": 657, "y": 285 }
   }
 }
+{
+  "mcpServers": {
+    "revit": {
+      "command": "uv",
+      "args": ["run", "--directory", "/duong-dan-tuyet-doi/mcp-server-for-revit-python", "main.py"],
+      "env": {
+        "REVIT_PORT": "48884"
+      }
+    }
+  }
+}
